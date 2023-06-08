@@ -1,52 +1,56 @@
 # terminal
 
 1) Посмотреть где я
-2) 
-Pwd
+  Pwd
 
 2) Создать папку
-3) 
-mkdir 33group
+  mkdir 33group
 
 3) Зайти в папку
-cd 33group
+  cd 33group
 
 4) Создать 3 папки
-mkdir 1dir 2dir 3dir 
+  mkdir 1dir 2dir 3dir 
 
 5) Зайти в любою папку
-cd 1dir 
+  cd 1dir 
 
 6) Создать 5 файлов (3 txt, 2 json)
-cat > one.txt 
+  cat > one.txt 
  cat > two.txt
  cat > tree.txt
  cat > one.json
  cat > two.json
 
 7) Создать 3 папки
-mkdir onedir twodir threedir
+  mkdir onedir twodir threedir
 
 8. Вывести список содержимого папки
-Ls
+  Ls
 
 9) + Открыть любой txt файл
-cat one.txt
+  cat one.txt
 
 
 10) + написать туда что-нибудь, любой текст.
-vim one.txt
+  vim one.txt
 
 11) + сохранить и выйти.
-cat one.txt
-Hello,World!
+  cat one.txt
+  Hello,World!
 
 12) Выйти из папки на уровень выше
-Cd ..
+  Cd ..
 
 —
 13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv two.txt 2dir/two.txt
+mv tree.txt 2dir/tree.txt
+
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp one.txt 3dir/one.txt
+cp tree.txt 3dir/tree.txt
+
 15) Найти файл по имени
 find . -iname two.txt
 
@@ -58,7 +62,6 @@ head /Users/rabetskaya.viktoriya/33group/1dir/two.txt
 tail -n10 /Users/rabetskaya.viktoriya/33group/1dir/two.txt
 
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
-./1dir/two.txt
 less -s two.txt
 
 20) вывести дату и время
