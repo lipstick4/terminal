@@ -17,10 +17,10 @@ cd 1dir
 
 6) Создать 5 файлов (3 txt, 2 json)
 cat > one.txt 
-cat > two.txt
-cat > tree.txt
-cat > one.json
-cat > two.json
+ cat > two.txt
+ cat > tree.txt
+ cat > one.json
+ cat > two.json
 
 7) Создать 3 папки
 mkdir onedir twodir threedir
